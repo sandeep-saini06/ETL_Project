@@ -1,0 +1,18 @@
+Airflow WSL Ubuntu Installation:
+https://stackoverflow.com/questions/72551825/installing-and-running-airflow-on-wsl
+
+
+1. Run all the above command on Ubuntu 22.04 LTS
+
+2. Once set-up is done, open vs code, connect to wsl ubuntu in vs code
+
+3. Commands to run in Terminal:
+a. deactivate repay virtual env (
+use command: deactivate)
+b. export AIRFLOW_HOME=~/airflow/airflowhome
+c. source ~/airflow/airflowenv/bin/activate
+d. airflow standalone
+
+url: localhost:8080
+username: admin
+password: stored in standalone_admin_password.txt file
